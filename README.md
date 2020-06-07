@@ -5,7 +5,7 @@ that allows users to send anonymous reports on modern slavery, child trafficking
 
 ## About
 
-![COGNITO](./User1.png)
+![COGNITO](./user1.png)
 
 COGNITO is only but one part of the general proposed solution towards the SDG Goal 8 Problem Statement 1.
 The app is currently web based and will be optimised for mobile viewing in future updates.
@@ -13,6 +13,7 @@ The app is currently web based and will be optimised for mobile viewing in futur
 ## Problems identified
 
 1. Parents and children are not able to effectively spot the dangers of modern slavery, child trafficking and child labour.
+
 2. The current mode of information dissemination to curb child trafficking by
  investigators (journalists, ministry of gender, NGO’s etc) to be primarily social media based not very effective
 3. Lack of direct interaction from the victims themselves, makes it more difficult for investigators to provide support.
@@ -60,35 +61,6 @@ various people and also click to read more information about specific reports. T
 action of the security forces to take hold and rescue the children and prosecute perpetrators.
 So, the app works like a ‘one-way messaging app’, where the general public become the ‘senders’ and
 the stakeholders become the ‘receivers’.
-
-## APP 2 (The report viewer app; for stakeholders ONLY)
-
-![App 2 - Developer Notice](./user2.png)
-
-• This app is able to view and keep track(feature to be added later) of rescued children, through database information storage.
-The app servers communicate directly with institutional servers of government stakeholders.
-One of the main challenges identified by the Ministry of Gender, Children & Social welfare, is lack
-of effective information dissemination and sharing between various stakeholders. So, COGNITO will
-only be an information gathering tool, which will feed the various stakeholders the required
-details and information needed to take necessary action. The app will take in:
-• Photograph of rescued children, name, age, sex, where he/she was rescued from,
-hometown, how many children were with him/her during the time of slavery, type of
-activity involved in during slavery, talents/special hobbies.(To be added in future update)
-This various information gathered will help the investigators and stakeholders met out specific
-strategies to help the rescued children. Not all of them will love to go to school, through
-knowledge of their hobbies and talents, they can be given basic education and then enrolled in a
-handy-work depending on their talents, that way helping to curb rate of unemployment. The
-information will also be used to identify other hot zones and allow police and other security
-agencies to perform mass rescue of victimized children and prosecution of guardians who
-perpetrate these acts.
-
-![App Two - reports screen](./reports.png)
-
-This app will also receive report updates from the general public who want to report cases of
-child trafficking which they witness in their locality.
-These kids upon successfully going through their rehab centers, will not just be released to go,
-but to also help in the fight against the canker. They will actively be involved in outreach programs
-to help share their life experiences with parents and children alike.
 
 ![App One](./user1.png)
 
