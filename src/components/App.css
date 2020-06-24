@@ -1,0 +1,69 @@
+.App-body {
+  background-color: #282c34;
+  background-image: url("https://www.transparenttextures.com/patterns/arabesque.png");
+}
+
+.Header{
+  background-color: #282c34;
+  position: fixed;
+  width: 100%;
+  top: 0%;
+  z-index: 9999;
+  padding: 1em 4em; 
+}
+
+.Footer-align{
+  text-align: center;
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.1em;
+}
+
+.footerDec{
+  text-decoration: beige;
+}
+
+.body{
+margin-top: 15%;
+}
+
+.reportContainer{
+background-color: #AACFCF;
+margin-top: 4em;
+padding: 2em;
+border-radius: 15px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: rotation 5s infinite linear;
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.loginTag{
+text-align: center;
+margin-top: 5em;
+margin-bottom: 1em;
+}
+
+.middle{
+  justify-items: center;
+}
+
+.details{
+font-size: 1em;
+padding-top: 2px;
+}
+.indexReport{
+  padding: 10px;
+}
