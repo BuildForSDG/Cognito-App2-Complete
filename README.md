@@ -1,68 +1,81 @@
-barebones setup for JavaScript / Node projects replace this with a one-liner phrase describing this project or app
+# COGNITO
 
-[![Codacy Badge](https://img.shields.io/badge/Code%20Quality-D-red)](https://img.shields.io/badge/Code%20Quality-D-red)
-
+**COGNITO** is a two-way app built in ReactJs, Node and Express with MongoDB as database,
+that allows users to send anonymous reports on modern slavery, child trafficking and child labour to national and stakeholder authorities to ease information gathering and social policy formations.
 
 ## About
 
-What is this project about. Ok to enrich here or the section above it with an image. 
+![COGNITO](./user1.png)
 
-Once this repo has been setup on Codacy by the TTL, replace the above badge with the actual one from the Codacy dashboard, and add the code coverage badge as well. This is mandatory
+COGNITO is only but one part of the general proposed solution towards the SDG Goal 8 Problem Statement 1.
+The app is currently web based and will be optimised for mobile viewing in future updates.
 
-This is a simple JavaScript starter repo template for setting up your project. The setup contains
+## Problems identified
 
-- Jest: For runnung tests. We strongly recommend that JavaScript projects use Jest
+1. Parents and children are not able to effectively spot the dangers of modern slavery, child trafficking and child labour.
 
-- Eslint & Prettier: For formatting code to match ESlint AirBnB coding standard. You might need to install the ESlint and Prettier plugins for your code editor to make the most of these utilities
+2. The current mode of information dissemination to curb child trafficking by
+ investigators (journalists, ministry of gender, NGO’s etc) to be primarily social media based not very effective
+3. Lack of direct interaction from the victims themselves, makes it more difficult for investigators to provide support.
 
-## Why
+## Proposed solutions
 
-Talk about what problem this solves, what SDG(s) and SGD targets it addresses and why these are imoirtant
+1. To deal with problem 1, some parents who have their wards living with other people may have no idea of the kind of
+treatment(s) being given to their wards; some also are very much aware of what is happening but
+do not really know the dangers involved. When the children are able to have interaction directly
+with these parents, it will bring to their realization the main events that go on, since it is coming
+from a child who has experienced the situation.
+The children who are rescued from child trafficking should be incorporated into the fight against
+trafficking; to enhance the works of investigators. Other children who may have the intent of
+indulging in such practices will also come to realize the real-life dangers involved. This text from
+the problem statement “kids are unaware of what's happening, while their parents are also involved to some
+extent”, means that most of the time, the children involved do not know that they are being
+taken through a criminal activity (child trafficking), hence they succumb to the maltreatments
+and harsh daily activities without complain.
+2. The statement also pointed out the current mode of information dissemination to curb child trafficking by
+investigators (journalists, ministry of gender, NGO’s etc) to be primarily social media based, the
+problem statement wanted to point out that it is not enough; more avenues need to be added. Here, it is trying to tell us to create a solution that enables investigators get direct interaction
+with victims and parents, thus, the victims should have an avenue where their voice will be heard.
+This avenue will enable the trafficked children share their personal experiences with investigators
+and other people who are ready to help fight against this abuse. The possible media to use will
+include print and community outreach to create awareness and improve sensitization of locals
+within the child trafficking zones on the dangers and legal issues involved. When trafficked
+children are able to be given the voice, they will have more influence on parents within these
+trafficking prone zones.
 
-## Usage
- How would someone use what you have built, include URLs to the deployed app, service e.t.c when you have it setup
+## Apps Built (2 APPS TO BE BUILT)
 
+![App One](./User1.png)
 
-## Setup
+## APP 1(The reporting app; for general public)
 
-Install `npm` or `yarn` if you dont have any of them already installed. We recommend Yarn though.
+The app will feature the ability for people to send reports anonymously of any case of child trafficking
+which they are currently witnessing to the authorities. The app will allow them to share:
 
-After clonning the repo to your local machine and moving into the cloned folder, Run `yarn install` to get started by installing dependencies. 
+• City, suburb where the activity is going on, names and residential location of
+perpetrators, precise/specific location eg. cocoa farm, fishing on lake Volta, or if unknown
+correspondence location may be entered.
+The report lodged will be sent as notification or SMS to the various stakeholders beforehand(feature to be added later).
+When the stakeholders receive notifications, they can open to app to view reports lodged by
+various people and also click to read more information about specific reports. This will allow swift
+action of the security forces to take hold and rescue the children and prosecute perpetrators.
+So, the app works like a ‘one-way messaging app’, where the general public become the ‘senders’ and
+the stakeholders become the ‘receivers’.
 
-`src/index.js` is the entry to the project and source code should go into the `src` folder.
+![App One](./user1.png)
 
-All tests should be written in the `__tests__' folder. There's a sample in there.
+## Author
 
-This starter uses [Parcel](https://parceljs.org/getting_started.html) as the bundler. It is much simpler that WebPack and the others
+### Brief Bio
 
-#### Hints
+Wilson Gbedema is a graduate of BSc Biomedical Sciences from the University of Cape Coast, Ghana.
+He doubles as a Full Stack Web Developer with 4 years of experience. 
+He is a lover of medicine and computer programming. His interests are in Cybersecurity and Mobile App Development.
+He has skills in Python for Ethical Hacking, Javascript, jQuery, ReactJs, Node, EJS, Express, SQL and MongoDB.
+He is the Lead Instructor at G-Security and TTL for Team-212.
+Github profile: [https://github.com/brakweku]
+Whole COGNITO project is built and managed by him.
 
-- Run `npm install` or `yarn install` to get started. We'll assume you are using Yarn.
-- Install additional dependencies: `yarn add <dependency-name> [-D]`
-- Run tests: `yarn test`
-- Run tests with test coverage info: `yarn test:cover`
-- Check the codebase for proper syntax and formatting compliance: `yarn lint`
-- Run your app in local dev mode: `yarn start`. This puts the bundled app in a `dist` folder, set up a local web server at localhost:1234, and continues to watch for your code changes which it syncs with the local server. This means if you loaded the app in a browser, it will auto-refresh as you code along. Feel free to use whatever bundler best meets your needs. Parcel was only added as a sample and for those looking for a simple but effective solution to the hassle of bundlers. 
+## Contributions
 
-## Authors
-
-List the team behind this project. Their names linked to their Github, LinkedIn, or Twitter accounts should siffice. Ok to signify the role they play in the project, including the TTL and mentor
-
-## Contributing
-If this project sounds interesting to you and you'd like to contribute, thank you!
-First, you can send a mail to buildforsdg@andela.com to indicate your interest, why you'd like to support and what forms of support you can bring to the table, but here are areas we think we'd need the most help in this project :
-1.  area one (e.g this app is about human trafficking and you need feedback on your roadmap and feature list from the private sector / NGOs)
-2.  area two (e.g you want people to opt-in and try using your staging app at staging.project-name.com and report any bugs via a form)
-3.  area three (e.g here is the zoom link to our end-of sprint webinar, join and provide feedback as a stakeholder if you can)
-
-## Acknowledgements
-
-Did you use someone else’s code?
-Do you want to thank someone explicitly?
-Did someone’s blog post spark off a wonderful idea or give you a solution to nagging problem?
-
-It's powerful to always give credit.
-
-## LICENSE
-MIT
-
+Special thanks to all coders at [https://stackoverflow.com], [https://medium.com], [https://superuser.com] and [https://dev.to] for their awesome blog posts.
